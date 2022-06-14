@@ -40,8 +40,8 @@ def send():
         engine.say("Iam laughing")
         engine.runAndWait()
     elif "created you" in e.get():
-        txt.insert(END, "\n" + 'BOT--> Darshan created me...😀😀')
-        engine.say("Darshan Created me, You can see his email above ")
+        txt.insert(END, "\n" + 'BOT-->😀😀')
+        engine.say("You can see his email above ")
         engine.runAndWait()
     elif "Iam good" in e.get():
         txt.insert(END, "\n" + 'BOT--> ohh ok')
@@ -53,9 +53,9 @@ def send():
         engine.say("Iam fine what about you?")
         engine.runAndWait()
     elif 'your name' in e.get():
-        engine.say("Still Darshan didnt gave me a name...")
+        engine.say("You can call me Chatnot ...")
         engine.runAndWait()
-        txt.insert(END, "\n" + 'BOT--> Still Darshan didnt gave me a name...😔😔')
+        txt.insert(END, "\n" + 'BOT--> Chatbot😔😔')
     elif 'who are you' in e.get():
         engine.say("Iam an Digital Assistant")
         engine.runAndWait()
@@ -67,7 +67,7 @@ def send():
     elif 'Alexa and Siri' in e.get():
         engine.say("Alexa and Siri are my best friends..")
         engine.runAndWait()
-        txt.insert(END, "\n" + 'BOT-->Alexa and Siri are my best friends..')
+        txt.insert(END, "\n" + 'BOT-->Alexa and Siri are my friends..')
     elif 'Bye' in e.get():
         engine.say("")
         engine.runAndWait()
